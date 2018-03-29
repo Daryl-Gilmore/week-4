@@ -1,0 +1,113 @@
+body {
+    background-color: blue;
+    margin:0;
+}
+h1 {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-weight: 400;
+    text-shadow: 5px 5px 10px #000
+}
+h2{
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-style: italic;
+   text-shadow: 5px 5px 10px #000
+}
+h3{
+    font-family: 'Indie Flower', cursive;
+    font-weight: 700;
+    text-shadow: 5px 5px 10px #000
+}
+ #my-btn {
+    background-color:yellow;
+    box-shadow: 5px 5px 5px #888888;
+}
+.fa-user-circle {
+    font-size: 30px;
+    color:blue;
+    text-shadow: 5px 5px 10px #000;
+}
+.icon{
+    font-size: 30px;
+    color:red;
+}
+.facebook{
+    font-size: 30px;
+}
+footer{
+    background-color: grey;
+}
+footer .footer-text{
+    display:inline-block;
+}
+footer .icons{
+   
+    float:right;
+}
+/*NAV BAR*/
+.pull-left {
+    float:left;
+}
+.pull-right{
+    float:right;
+}
+.inline-block {
+    display: inline-block;
+}
+.clearfix::after {
+    content:"";
+    display: block;
+    clear:both;
+}
+
+/*navbar*/
+nav {
+    background-color: black;
+}
+nav img {
+    height: 75px;
+    margin-left: 20px;
+}
+
+.nav-links{
+    list-style-type:  none;
+    margin: 26px 20px 0 0;
+
+}
+
+.nav-links li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: yellow;
+}
+.nav-links li a:hover{
+    background-color: yellow;
+    color: black;
+}
+
+
+/*about page styles*/
+.content-1,
+.content-2 {
+    margin: 10px;
+}
+.left {
+    display: inline-block;
+}
+.left .content-img {
+    height: 150px;
+}
+.right p {
+   margin-left: 10px;
+}
+.right {
+    display: inline-block;
+    width: 70%
+}
+.content-3 div {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+}
